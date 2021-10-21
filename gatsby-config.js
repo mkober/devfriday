@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
-    },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    title: `Dev Friday Show`,
+    author: [{
+      name: `Mark Koberlein`,
+      summary: `Prof. of Interactive Design. Amateur Japan Tour Guide & Batman Historian. HS basketball player & award-winning theater actor.`,
+    }],
+    description: `End your week with the greatest developer podcast on the planet.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `markkoberlein`,
     },
   },
   plugins: [

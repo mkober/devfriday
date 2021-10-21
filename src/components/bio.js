@@ -30,6 +30,8 @@ const Bio = () => {
   const author = data.site.siteMetadata?.author
   const social = data.site.siteMetadata?.social
 
+  console.log(author);
+
   return (
     <div className="bio">
       <StaticImage
@@ -42,9 +44,9 @@ const Bio = () => {
         quality={95}
         alt="Profile picture"
       />
-      {author?.name && (
+      {author[0]?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          Produced by <strong>{author.name}</strong> {author[0]?.summary || null}
           {` `}
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
             You should follow them on Twitter
