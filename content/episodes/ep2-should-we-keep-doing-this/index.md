@@ -6,7 +6,7 @@ fileURL: https://s3.amazonaws.com/podcast.timlytle.net/ep-02.mp3
 fileSize: 103
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Fd6n9oD1Fyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zqo-pNdTYSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Summary
 Now we know how little we know about what we're doing. Mark asks Tim about his 'origin' story - at least how he started programming, and they delve a bit into programming interviews, the state of teaching software development in higher education, and of course if they should keep doing this.
