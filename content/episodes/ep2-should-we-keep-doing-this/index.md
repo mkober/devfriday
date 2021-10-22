@@ -1,5 +1,5 @@
 ---
-title: Episode 2 - Should We Keep Doing This
+title: Test Episode 2 - Should We Keep Doing This
 date: "2021-10-15"
 description: Now we know how little we know about what we're doing. Mark asks Tim about his 'origin' story - at least how he started programming, and they delve a bit into programming interviews, the state of teaching software development in higher education, and of course if they should keep doing this.
 fileURL: https://s3.amazonaws.com/podcast.timlytle.net/ep-02.mp3
