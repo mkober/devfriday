@@ -64,10 +64,10 @@ const Bio = () => {
         />
         <div className="bio-copy">
           <strong><a href="https://twitter.com/tjlytle">Tim Lytle</a></strong>
-          <p><em>Bible Believer, API / Platform Guy, Developer 
-          <a href="https://twitter.com/phoneburner">@phoneburner</a>, 
+          <p><em>Bible Believer, API / Platform Guy, Developer&nbsp; 
+          <a href="https://twitter.com/phoneburner">@phoneburner</a>,&nbsp; 
           <a href="https://twitter.com/lvtech">@lvtech</a> Wrangler,
-          former <a href="https://twitter.com/beckoncall">@beckoncall</a> 
+          former <a href="https://twitter.com/beckoncall">@beckoncall</a>&nbsp;  
           & DevRel <a href="https://twitter.com/nexmo">@nexmo</a>, 
           Future Futurist, Sometime Writer & Speaker</em></p>
         </div>
