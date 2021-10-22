@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `Dev Friday Show`,
-    author: [{
+    author: {
       name: `Mark Koberlein`,
       summary: `Prof. of Interactive Design. Amateur Japan Tour Guide & Batman Historian. HS basketball player & award-winning theater actor.`,
-    }],
+    },
     description: `End your week with the greatest developer podcast on the planet.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://devfridayshow.com`,
     social: {
       twitter: `markkoberlein`,
     },
@@ -16,7 +16,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        path: `${__dirname}/content/episodes`,
         name: `blog`,
       },
     },
@@ -81,7 +81,16 @@ module.exports = {
                   date: node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
-                  custom_elements: [{ "content:encoded": node.html }],
+                  custom_elements: [
+                    { "content:encoded": node.html },
+                    {'enclosure': [
+                      {_attr: {
+                        url: node.frontmatter.fileURL,
+                        length: Number(node.frontmatter.fileSize) * 1000 * 1000, // megabytes to bytes
+                        type: "audio/mpeg",
+                      }},
+                    ]},
+                  ],
                 })
               })
             },
@@ -99,11 +108,15 @@ module.exports = {
                     frontmatter {
                       title
                       date
+                      fileURL
+                      fileSize
                     }
                   }
                 }
               }
             `,
+            title: "Dev Friday Show RSS Feed",
+            link: "https://devfridayshow.com",
             output: "/rss.xml",
           },
         ],

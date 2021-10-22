@@ -34,25 +34,44 @@ const Bio = () => {
 
   return (
     <div className="bio">
-      <StaticImage
-        className="bio-avatar"
-        layout="fixed"
-        formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.png"
-        width={50}
-        height={50}
-        quality={95}
-        alt="Profile picture"
-      />
-      {author[0]?.name && (
-        <p>
-          Produced by <strong>{author.name}</strong> {author[0]?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
-          </a>
-        </p>
-      )}
+      <div className="bio-profile">
+        <StaticImage
+          className="bio-avatar"
+          layout="fixed"
+          formats={["auto", "webp", "avif"]}
+          src="../images/profile-mark.png"
+          width={50}
+          height={50}
+          quality={95}
+          alt="Profile picture"
+        />
+        <div className="bio-copy">
+          <strong><a href="https://twitter.com/MarkKoberlein">Mark Koberlein</a></strong>
+          <p><em>Prof. of Interactive Design. Amateur Japan Tour Guide & Batman Historian. 
+          HS basketball player & award-winning theater actor.</em></p>
+        </div>
+      </div>
+      <div className="bio-profile">
+        <StaticImage
+          className="bio-avatar"
+          layout="fixed"
+          formats={["auto", "webp", "avif"]}
+          src="../images/profile-tim.jpg"
+          width={50}
+          height={50}
+          quality={95}
+          alt="Profile picture"
+        />
+        <div className="bio-copy">
+          <strong><a href="https://twitter.com/tjlytle">Tim Lytle</a></strong>
+          <p><em>Bible Believer, API / Platform Guy, Developer 
+          <a href="https://twitter.com/phoneburner">@phoneburner</a>, 
+          <a href="https://twitter.com/lvtech">@lvtech</a> Wrangler,
+          former <a href="https://twitter.com/beckoncall">@beckoncall</a> 
+          & DevRel <a href="https://twitter.com/nexmo">@nexmo</a>, 
+          Future Futurist, Sometime Writer & Speaker</em></p>
+        </div>
+      </div>
     </div>
   )
 }
