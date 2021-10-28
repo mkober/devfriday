@@ -71,7 +71,27 @@ module.exports = {
               }
             }
           }
-        `,
+        `,        
+        setup: options => ({
+          custom_namespaces: {
+            itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
+          },
+          custom_elements: [
+            { 'language': 'eng' },  
+            { 'image': 'https://devfridayshow.com/images/showart.jpg' },  
+            { 'copyright': "\u00A9" + new Date().getFullYear() + " Mark Koberlein & Tim Lytle" },  
+            { 'itunes:author': 'Mark Koberlein and Tim Lytle' },  
+            { 'itunes:image': 'https://devfridayshow.com/images/showart.jpg' },  
+            { 'itunes:category': 'Technology' },  
+            { 'itunes:explicit': 'clean' },  
+            { 'itunes:category': 'Technology' },  
+            { 'itunes:type': 'Episodic' },  
+            { 'itunes:owner': [ 
+              { 'itunes:name': 'Dev Friday Show' }, 
+              { 'itunes:email': 'hello@devfridayshow.com' },  
+            ]},  
+          ],
+        }),
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
@@ -79,10 +99,15 @@ module.exports = {
                 return Object.assign({}, node.frontmatter, {
                   description: node.excerpt,
                   date: node.frontmatter.date,
+                  pubDate: Date(node.frontmatter.date).toString(),
+                  language: node.frontmatter.language,
                   url: site.siteMetadata.siteUrl + node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + node.fields.slug,
+                  link: site.siteMetadata.siteUrl + node.fields.slug,
+                  guid: node.frontmatter.date + "-"  + node.fields.slug.replace(/\\|\//g,''),
                   custom_elements: [
-                    { "content:encoded": node.html },
+                    { 'itunes:title': node.frontmatter.title },  
+                    { 'itunes:duration': Number(node.frontmatter.minutes)*60+Number(node.frontmatter.seconds) },  
+                    { 'content:encoded': node.html },
                     {'enclosure': [
                       {_attr: {
                         url: node.frontmatter.fileURL,
@@ -110,6 +135,8 @@ module.exports = {
                       date
                       fileURL
                       fileSize
+                      minutes
+                      seconds
                     }
                   }
                 }

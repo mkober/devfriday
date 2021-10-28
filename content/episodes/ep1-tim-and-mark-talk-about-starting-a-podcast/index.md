@@ -4,6 +4,8 @@ date: "2021-10-08"
 description: We have no idea what we're doing. But that's about normal.
 fileURL: https://s3.amazonaws.com/podcast.timlytle.net/ep-01.mp3
 fileSize: 121
+minutes: 71
+seconds: 28
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fd6n9oD1Fyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
