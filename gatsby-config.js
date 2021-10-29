@@ -72,19 +72,35 @@ module.exports = {
             }
           }
         `,        
-        setup: options => ({
+        setup: () => ({
+          title: 'Dev Friday Show',
+          description: 'End your week with the greatest developer podcast on the planet. Hosted by Mark Koberlein and Tim Lytle.',
+          feed_url: 'https://devfridayshow.net/rss.xml',
+          site_url: 'https://devfridayshow.com',
           custom_namespaces: {
             itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
           },
           custom_elements: [
             { 'language': 'eng' },  
-            { 'image': 'https://devfridayshow.com/images/showart.jpg' },  
+            { 'image': [
+              {'url': 'https://devfridayshow.com/images/showart.jpg'}, 
+              {'title': 'Dev Friday Show'},
+              {'link': 'https://devfridayshow.com'},
+            ]},  
             { 'copyright': "\u00A9" + new Date().getFullYear() + " Mark Koberlein & Tim Lytle" },  
+            { 'itunes:summary': 'End your week with the greatest developer podcast on the planet. Hosted by Mark Koberlein and Tim Lytle.' },
             { 'itunes:author': 'Mark Koberlein and Tim Lytle' },  
-            { 'itunes:image': 'https://devfridayshow.com/images/showart.jpg' },  
-            { 'itunes:category': 'Technology' },  
+            { 'itunes:image': [
+              {_attr: {
+                href: 'https://devfridayshow.com/images/showart.jpg',
+              }},
+            ]},  
+            { 'itunes:category': [
+              {_attr: {
+                text: 'Technology',
+              }},   
+            ]},  
             { 'itunes:explicit': 'clean' },  
-            { 'itunes:category': 'Technology' },  
             { 'itunes:type': 'Episodic' },  
             { 'itunes:owner': [ 
               { 'itunes:name': 'Dev Friday Show' }, 
@@ -142,7 +158,7 @@ module.exports = {
                 }
               }
             `,
-            title: "Dev Friday Show RSS Feed",
+            title: "Dev Friday Show",
             link: "https://devfridayshow.com",
             output: "/rss.xml",
           },
