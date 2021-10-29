@@ -75,7 +75,7 @@ module.exports = {
         setup: () => ({
           title: 'Dev Friday Show',
           description: 'End your week with the greatest developer podcast on the planet. Hosted by Mark Koberlein and Tim Lytle.',
-          feed_url: 'https://devfridayshow.net/rss.xml',
+          feed_url: 'https://devfridayshow.com/rss.xml',
           site_url: 'https://devfridayshow.com',
           custom_namespaces: {
             itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
