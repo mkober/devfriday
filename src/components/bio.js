@@ -30,8 +30,6 @@ const Bio = () => {
   const author = data.site.siteMetadata?.author
   const social = data.site.siteMetadata?.social
 
-  console.log(author);
-
   return (
     <div className="bio">
       <div className="bio-profile">
@@ -48,7 +46,7 @@ const Bio = () => {
         <div className="bio-copy">
           <strong><a href="https://twitter.com/MarkKoberlein">Mark Koberlein</a></strong>
           <p><em>Prof. of Interactive Design. Amateur Japan Tour Guide & Batman Historian. 
-          HS basketball player & award-winning theater actor.</em></p>
+          <a href="https://twitter.com/NJCAAE">@NJCAAE</a> Coach & award-winning theater actor.</em></p>
         </div>
       </div>
       <div className="bio-profile">
