@@ -5,13 +5,22 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+import {
+  Button
+} from "../components/UI"
+
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
+  const siteDescription = data.site.siteMetadata?.description || `Description`
   const { previous, next } = data
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout 
+      location={location} 
+      title={siteTitle}
+      description={siteDescription}
+    >
       <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
@@ -25,15 +34,27 @@ const BlogPostTemplate = ({ data, location }) => {
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
         </header>
+
+        <audio controls style={{width: '100%',marginBottom: '20px'}}>
+          <source src={post.frontmatter.fileURL} type="audio/mpeg" />
+        </audio>
+
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
-        <hr />
+        
+        <Button
+          href={post.frontmatter.youtube}>
+          Watch Episode on YouTube
+        </Button>
+
         <footer>
           <Bio />
         </footer>
+
       </article>
+
       <nav className="blog-post-nav">
         <ul
           style={{
@@ -75,6 +96,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        description
       }
     }
     markdownRemark(id: { eq: $id }) {
@@ -85,6 +107,8 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        fileURL
+        youtube
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

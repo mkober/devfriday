@@ -1,11 +1,23 @@
 const path = require(`path`)
+
+exports.onCreateWebpackConfig = ({ actions, getConfig }) => {
+  const config = getConfig();
+  config.devServer = {
+    watchOptions: {
+      aggregateTimeout: 500, // delay before reloading
+      poll: 1000 // enable polling since fsevents are not supported in docker
+    }
+  };
+  actions.replaceWebpackConfig(config);
+};
+
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
   // Define a template for blog post
-  const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const blogPost = path.resolve(`./src/templates/blog-post.jsx`)
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(

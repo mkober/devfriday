@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  app:
+    stdin_open: true
+    container_name: devfriday
+    environment:
+      CHOKIDAR_USEPOLLING: 1
+      NODE_ENV: development
+      GATSBY_WEBPACK_PUBLICPATH: /
+      ENABLE_GATSBY_REFRESH_ENDPOINT: 1
+    image: devfriday:dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    volumes:
+      - ./src:/app/src
+    ports:
+      - "8000:8000"
+    expose:
+      - "8000"

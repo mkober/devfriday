@@ -6,14 +6,12 @@ fileURL: https://s3.amazonaws.com/podcast.timlytle.net/ep-01.mp3
 fileSize: 121
 minutes: 71
 seconds: 28
+youtube: https://www.youtube.com/watch?v=Fd6n9oD1Fyo
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Fd6n9oD1Fyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Summary
 We have no idea what we're doing. But that's about normal.
 
-### Chapters
+#### Chapters
 
 00:00:00 - Talking about Starting A Podcast  
 00:00:52 - No Idea what we're Doing  

@@ -1,18 +1,15 @@
 ---
 title: Episode 7 - Are We Still Doing This?
-
 date: "2021-12-03"
 description: After two weeks away Mark and Tim are back talking about something. Well really everything. Birthdays, Covid, Christmas, and Raspberry Pies. Also kicking off the 12 TDDs and building an interactive art piece.  
 fileURL: https://s3.amazonaws.com/podcast.timlytle.net/ep-07.mp3
 fileSize: 100
+youtube: https://www.youtube.com/watch?v=07-Eyfn6YuQ
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/07-Eyfn6YuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Summary
 After two weeks away Mark and Tim are back talking about something. Well really everything. Birthdays, Covid, Christmas, and Raspberry Pies. Also kicking off the 12 TDDs and building an interactive art piece.
 
-### Chapters
+#### Chapters
 
 00:00 - Back After Two Weeks  
 00:30 - It's No One's Birthday  

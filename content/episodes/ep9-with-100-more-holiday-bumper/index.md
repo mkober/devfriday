@@ -1,18 +1,15 @@
 ---
 title: Episode 9 - With 100% More Holiday Bumper
-
 date: "2021-12-17"
 description: We paid fives of dollars in production costs, just for you. Mark plays with docker (instead of doing the 12 TDDs), and can barely talk. Tim wants to know what to buy developers for Christmas, and still builds computers from parts he gets in a store.
 fileURL: https://s3.amazonaws.com/podcast.timlytle.net/ep-09.mp3
 fileSize: 100
+youtube: https://www.youtube.com/watch?v=PwTfzQeNqvc
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PwTfzQeNqvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Summary
 We paid fives of dollars in production costs, just for you. Mark plays with docker (instead of doing the 12 TDDs), and can barely talk. Tim wants to know what to buy developers for Christmas, and still builds computers from parts he gets in a store.
 
-### Chapters
+#### Chapters
 
 00:00 - All you get for $5  
 01:50 - Not the Same Guy  
@@ -47,3 +44,4 @@ We paid fives of dollars in production costs, just for you. Mark plays with dock
 53:22 - Keyboards  
 55:48 - Mice  
 59:26 - Next Week?  
+

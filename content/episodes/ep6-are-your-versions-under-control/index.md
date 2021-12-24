@@ -1,18 +1,15 @@
 ---
 title: Episode 6 - Are Your Versions Under Control?
-
 date: "2021-11-12"
 description: The titles are pretty much meaningless because we don't really prepare anything for this. Tim forgets to hit record, and his family seems to be unaware he's trying to record a podcast. But there are no edits on the DevFridayShow so complete with background music and random timers we talk about contract bidding tips, working remotely from your development system, and the need for a personal website (is there?).  
 fileURL: https://s3.amazonaws.com/podcast.timlytle.net/ep-06.mp3
 fileSize: 100
+youtube: https://www.youtube.com/watch?v=gr2EU6pUklM 
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gr2EU6pUklM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Summary
 The titles are pretty much meaningless because we don't really prepare anything for this. Tim forgets to hit record, and his family seems to be unaware he's trying to record a podcast. But there are no edits on the DevFridayShow so complete with background music and random timers we talk about contract bidding tips, working remotely from your development system, and the need for a personal website (is there?).
 
-### Chapters
+#### Chapters
 
 00:00 - Forgot to Hit Record  
 01:34 - Gone Next Week  

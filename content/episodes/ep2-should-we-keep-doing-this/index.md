@@ -6,14 +6,12 @@ fileURL: https://s3.amazonaws.com/podcast.timlytle.net/ep-02.mp3
 fileSize: 103
 minutes: 62
 seconds: 23
+youtube: https://www.youtube.com/watch?v=zqo-pNdTYSY
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zqo-pNdTYSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Summary
 Now we know how little we know about what we're doing. Mark asks Tim about his 'origin' story - at least how he started programming, and they delve a bit into programming interviews, the state of teaching software development in higher education, and of course if they should keep doing this.
 
-### Chapters
+#### Chapters
 
 0:00:00 - Fiverr Inflation  
 0:01:30 - How Far We've Come  

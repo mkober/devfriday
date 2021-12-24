@@ -6,14 +6,12 @@ fileURL: https://s3.amazonaws.com/podcast.timlytle.net/ep-03.mp3
 fileSize: 98
 minutes: 71
 seconds: 28
+youtube: https://www.youtube.com/watch?v=bgw1AwGgqb8
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bgw1AwGgqb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Summary
 Mark reveals the brand new website, eventually, but first we talk about talking to non-developers, tweets that trigger Mark, and much much more.
 
-### Chapters
+#### Chapters
 
 0:00:00 - Forgot to Hit Record  
 0:01:22 - We Never Talk  

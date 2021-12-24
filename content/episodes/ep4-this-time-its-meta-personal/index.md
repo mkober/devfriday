@@ -1,18 +1,15 @@
 ---
 title: Episode 4 - This Time It's Meta Personal
-
 date: "2021-10-29"
 description: Half podcast, half Mark's therapy, two developers chat at the end of the week and things get personal. From refactoring code to refactoring your life, this episode is all about life as a developer and how our perspectives - and even balance - change over time.
 fileURL: https://s3.amazonaws.com/podcast.timlytle.net/ep-04.mp3
 fileSize: 99
+youtube: https://www.youtube.com/watch?v=orLAWQPcyjc
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/orLAWQPcyjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Summary
 Half podcast, half Mark's therapy, two developers chat at the end of the week and things get personal. From refactoring code to refactoring your life, this episode is all about life as a developer and how our perspectives - and even balance - change over time.
 
-### Chapters
+#### Chapters
 
 00:00 - Mark Likes the (now out of date) Bumper  
 02:36 - Starting the Therapy Session  

@@ -151,6 +151,7 @@ module.exports = {
                       date
                       fileURL
                       fileSize
+                      youtube
                       minutes
                       seconds
                     }
