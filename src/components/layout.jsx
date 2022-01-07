@@ -10,7 +10,7 @@ const Layout = ({ location, title, description, children }) => {
         <Link to="/">
         <StaticImage
           className="showart"
-          layout="fixed"
+          layout="fullWidth"
           formats={["auto", "webp", "avif"]}
           src="../images/showart.png"
           width={600}
