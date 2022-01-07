@@ -5,7 +5,7 @@ module.exports = {
       name: `Mark Koberlein`,
       summary: `Prof. of Interactive Design. Amateur Japan Tour Guide & Batman Historian. HS basketball player & award-winning theater actor.`,
     },
-    description: `End your week with the greatest developer podcast on the planet.`,
+    description: `with mark and tim`,
     siteUrl: `https://devfridayshow.com`,
     social: {
       twitter: `markkoberlein`,
@@ -169,15 +169,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Dev Friday Show`,
+        short_name: `DevFriday`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
