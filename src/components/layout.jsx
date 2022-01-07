@@ -1,15 +1,24 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Layout = ({ location, title, description, children }) => {
 
   return (
     <div className="global-wrapper">
       <header className="global-header">
-        <h1 className="main-heading">
-          <Link to="/">{title}</Link>
-        </h1>
-        <p><em>{description}</em></p>
+        <Link to="/">
+        <StaticImage
+          className="showart"
+          layout="fixed"
+          formats={["auto", "webp", "avif"]}
+          src="../images/showart.png"
+          width={600}
+          height={600}
+          quality={100}
+          alt="Show Art"
+        />
+        </Link>
       </header>
       <main>{children}</main>
       <footer>

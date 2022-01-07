@@ -45,7 +45,9 @@ const BlogPostTemplate = ({ data, location }) => {
         />
         
         <Button
-          href={post.frontmatter.youtube}>
+          href={post.frontmatter.youtube}
+          backgroundColor="#F1C40F"
+        >
           Watch Episode on YouTube
         </Button>
 
