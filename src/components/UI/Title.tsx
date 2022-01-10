@@ -12,20 +12,25 @@ interface TitleProps {
     height?: string,
     minWidth?: string,
     width?: string,
+    hasTextCentered?: string,
 }
 
-const Title = styled.h1<TitleProps>`
+const Title = styled.h2<TitleProps>`
     font-size: ${props => props.fontSize || "2rem"};
     text-decoration: ${props => props.textDecoration || "none"};
     text-transform: ${props => props.textTransform || "none"};
     text-align: ${props => props.textAlign || "left"};
     padding: ${props => props.padding || "0rem"};
-    margin: ${props => props.margin || "0rem"};
+    margin: ${props => props.margin || "0rem 0rem 0rem 0rem"};
     display: ${props => props.display || "block"};
     min-height: ${props => props.minHeight || "auto"};
     height: ${props => props.height || "auto"};
     min-width: ${props => props.minWidth || "100%"};
     width: ${props => props.width || "100%"};
+
+    ${props => props.hasTextCentered && `
+      text-align: center !important;
+    `}
 `;
 
 export default Title;

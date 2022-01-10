@@ -6,6 +6,8 @@ import Column from "./Column";
 import Navbar from "./Navbar";
 import Button from "./Button";
 import Link from "./Link";
+import Level from "./Level";
+import LevelItem from "./LevelItem";
 
 export {
     Title,
@@ -15,5 +17,7 @@ export {
     Columns,
     Column,
     Button,
-    Link
+    Link,
+    Level,
+    LevelItem
 }

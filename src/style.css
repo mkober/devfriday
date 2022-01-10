@@ -67,12 +67,21 @@ footer {
   font-size: var(--fontSize-2);
 }
 
+.subscribe {
+  margin-top: var(--spacing-0) !important;
+}
+@media screen and (min-width: 769px), print {
+  .subscribe {
+    margin-top: var(--spacing-16) !important;
+  }
+}
+
 .bio {
-  margin-top: var(--spacing-0);
+  margin-top: var(--spacing-20);
 }
 @media screen and (min-width: 769px), print {
   .bio {
-    margin-top: var(--spacing-20);
+    margin-top: var(--spacing-16);
   }
 }
 

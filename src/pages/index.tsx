@@ -1,9 +1,9 @@
-import * as React from "react"
-import { Link, graphql } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import { Link, graphql } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
-import Layout from "../components/Layout"
-import Seo from "../components/Seo"
+import Layout from "../components/Layout";
+import Seo from "../components/Seo";
 
 import {
   Title,
@@ -42,6 +42,7 @@ const BlogIndex = ({ data, location }) => {
               alt="Show Art"
             />
           </Link>
+
           <article
             className="blog-post"
             itemScope

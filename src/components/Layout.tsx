@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Bio from "./Bio"
+import Subscribe from "../components/Subscribe";
 
 import {
   Column,
@@ -17,6 +18,7 @@ const Layout = ({ location, title, description, children }) => {
         {children}
       </Column>
       <Column isOneQuarter isGaplessDesktop>
+        <Subscribe />
         <Bio />
         <footer>
           ©{new Date().getFullYear()} Mark Koberlein and Tim Lytle
