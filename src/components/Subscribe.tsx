@@ -8,7 +8,9 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import { 
   faSpotify,
-  faItunes
+  faItunes,
+  faTwitter,
+  faYoutube
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
@@ -25,11 +27,6 @@ const Subscribe = () => {
       <Title hasTextCentered>Subscribe</Title>
       <Level>
         <LevelItem>
-          <Link to="https://podcastindex.org/podcast/4431922">
-            <FontAwesomeIcon icon={faPodcast} size="2x" fixedWidth />
-          </Link>
-        </LevelItem>
-        <LevelItem>
           <Link to="https://open.spotify.com/show/3y5bmInPHt6dPUI3V5zZ1C">
             <FontAwesomeIcon icon={faSpotify} size="2x" fixedWidth />
           </Link>
@@ -37,6 +34,21 @@ const Subscribe = () => {
         <LevelItem>
           <Link to="https://podcasts.apple.com/us/podcast/dev-friday-show/id1592725281">
             <FontAwesomeIcon icon={faItunes} size="2x" fixedWidth />
+          </Link>
+        </LevelItem>
+        <LevelItem>
+          <Link to="https://podcastindex.org/podcast/4431922">
+            <FontAwesomeIcon icon={faPodcast} size="2x" fixedWidth />
+          </Link>
+        </LevelItem>
+        <LevelItem>
+          <Link to="https://www.youtube.com/channel/UCAsGqLNc4t85MXbPUszcSyg">
+            <FontAwesomeIcon icon={faYoutube} size="2x" fixedWidth />
+          </Link>
+        </LevelItem>
+        <LevelItem>
+          <Link to="https://twitter.com/devfridayshow">
+            <FontAwesomeIcon icon={faTwitter} size="2x" fixedWidth />
           </Link>
         </LevelItem>
         <LevelItem>
