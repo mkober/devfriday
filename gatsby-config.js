@@ -83,7 +83,7 @@ module.exports = {
           custom_elements: [
             { 'language': 'eng' },  
             { 'image': [
-              {'url': 'https://devfridayshow.com/images/showart.jpg'}, 
+              {'url': 'https://devfridayshow.com/images/showart.png'}, 
               {'title': 'Dev Friday Show'},
               {'link': 'https://devfridayshow.com'},
             ]},  
@@ -92,7 +92,7 @@ module.exports = {
             { 'itunes:author': 'Mark Koberlein and Tim Lytle' },  
             { 'itunes:image': [
               {_attr: {
-                href: 'https://devfridayshow.com/images/showart.jpg',
+                href: 'https://devfridayshow.com/images/showart.png',
               }},
             ]},  
             { 'itunes:category': [
