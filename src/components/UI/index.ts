@@ -1,4 +1,5 @@
 import Title from "./Title";
+import Subtitle from "./Subtitle";
 import Container from "./Container";
 import Columns from "./Columns";
 import Column from "./Column";
@@ -8,6 +9,7 @@ import Link from "./Link";
 
 export {
     Title,
+    Subtitle,
     Navbar,
     Container,
     Columns,

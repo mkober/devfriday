@@ -10,6 +10,7 @@
   --maxWidth-4xl: 56rem;
   --maxWidth-full: "100%";
   --maxWidth-wrapper: var(--maxWidth-2xl);
+
   --spacing-px: "1px";
   --spacing-0: 0;
   --spacing-1: 0.25rem;
@@ -25,6 +26,23 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
+  --block-spacing: 1.5rem !default
+
+  --gap: 32px !default
+  --tablet: 769px !default
+  --desktop: 960px + (2 * var(--gap)) !default;
+  --widescreen: 1152px + (2 * var(--gap)) !default;
+  --widescreen-enabled: true !default;
+  --fullhd: 1344px + (2 * var(--gap)) !default;
+  --fullhd-enabled: true !default;
+
+  --easing: ease-out !default;
+  --radius-small: 2px !default;
+  --radius: 4px !default;
+  --radius-large: 6px !default;
+  --radius-rounded: 9999px !default;
+  --speed: 86ms !default;
+
   --fontFamily-sans: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --fontFamily-serif: "Georgia", Cambria, "Times New Roman",
@@ -38,11 +56,6 @@
   --fontWeight-extrabold: 800;
   --fontWeight-black: 900;
   --fontSize-root: 16px;
-  --lineHeight-none: 1;
-  --lineHeight-tight: 1.1;
-  --lineHeight-normal: 1.5;
-  --lineHeight-relaxed: 1.625;
-  /* 1.200 Minor Third Type Scale */
   --fontSize-0: 0.833rem;
   --fontSize-1: 1rem;
   --fontSize-2: 1.2rem;
@@ -54,6 +67,11 @@
   --fontSize-8: 3.58272rem;
   --fontSize-9: 4.299264rem;
   --fontSize-10: 5.1591168rem;
+  --lineHeight-none: 1;
+  --lineHeight-tight: 1.1;
+  --lineHeight-normal: 1.5;
+  --lineHeight-relaxed: 1.625;
+
   --color-background: #FFF;
   --color-primary: #005b99;
   --color-text: #2e353f;
