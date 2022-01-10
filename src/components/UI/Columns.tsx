@@ -28,10 +28,10 @@ interface ColumnsProps {
 const Columns = styled.div<ColumnsProps>`
     position: ${props => props.position || "relative"};
     padding: ${props => props.padding || "0rem"};
-    margin: ${props => props.margin || "0rem"};
-    margin-left: ${props => props.marginLeft || "-1rem"};
-    margin-right: ${props => props.marginRight || "-1rem"};
-    margin-top: ${props => props.marginTop || "-1rem"};
+    margin: ${props => props.margin || "0 auto"};
+    margin-left: ${props => props.marginLeft || "0"};
+    margin-right: ${props => props.marginRight || "0"};
+    margin-top: ${props => props.marginTop || "0"};
     display: ${props => props.display || "block"};
     align-items: ${props => props.alignItems || "flex-start"};
     justify-content: ${props => props.justifyContent || "flex-start"};
