@@ -12,7 +12,7 @@ Tim's supposed to talk with Mark about all the tech interviews he's been giving.
 #### Chapters
 
 00:00 - Is this thing on?  
-00:47 - Internet Abroad  
+00:47 - Rubber Band Ball of Internet 
 04:44 - Obligatory PHP Storm Reference  
 08:38 - Weekly Emacs Segment  
 12:23 - OpenSource Mobile Apps  
