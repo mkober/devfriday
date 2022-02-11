@@ -25,7 +25,7 @@ And that's all you get for five dollars. Mark and Tim talk about shopping on Chr
 17:20 - What Games is Mark Playing?  
 18:30 - A While Since Tim Game'd  
 20:06 - Valorant Gameplay  
-24:02 - Esports
+24:02 - Esports  
 30:00 - And That's How They Make Money  
 31:26 - Paintball  
 33:10 - Probably Shouldn't Invite Anthony  

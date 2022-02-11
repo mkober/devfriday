@@ -32,7 +32,7 @@ Totally unprepared as normal. Mark has given up his green screen and almost inst
 40:48 - What's in PHP 8  
 41:58 - Is this a Technical Interview  
 46:27 - Type Script  
-47:33 - Python
+47:33 - Python  
 48:29 - The Wrong Way to Teach PHP  
 49:45 - Tim Can Help  
 50:26 - Named Arguments And More  
