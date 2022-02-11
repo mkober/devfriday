@@ -35,6 +35,6 @@ Tim tries to interview Mark and it goes completely off the rails (not the Ruby k
 42:12 - Generally a Specialist  
 44:09 - The Full Stack Developer  
 50:48 - A Rock Star Ninja  
-51:31 - Tim's TedX Talk  
+51:31 - Tim's TEDx Talk  
 54:56 - Behind the Scenes  
 58:15 - BattleSnakes  
