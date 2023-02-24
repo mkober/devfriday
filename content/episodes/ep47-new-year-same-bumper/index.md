@@ -1,5 +1,5 @@
 ---
-title: Episode 47 - New Year, Same Bumper
+title: "Episode 47 - New Year, Same Bumper"
 date: "2023-01-20"
 description: "It's 2023 and Mark's still on linux and won't ever go back. Tim's writing novels for his kids using ChatGPT, and Mark's ready for him to be put out of work."
 
