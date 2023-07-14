@@ -1,13 +1,13 @@
 ---
-title: "Episode 60 - Summer of Mark"
-date: "2023-06-02"
-description: "It may not be the 100th episode, but it is the start of the 'Summer of Mark'. Mark tries to lay out his plan for finding a new job, but Tim takes things off the rails as he asks how Mark started teaching anyway."
-fileURL: https://s3.amazonaws.com/podcast.timlytle.net/ep60/ep60.mp3
+title: "Episode 59 - I/O & tek Recaps"
+date: "2023-05-26"
+description: "Tim talks about php[tek] highlights, while Mark laments the fact that events like WWDC and Google IO have become less developer focused. Tim's using ChatGPT to grade his kid's papers, and Mark is triggered by HTMX."
+fileURL: https://s3.amazonaws.com/podcast.timlytle.net/ep59/ep59.mp3
 fileSize: 100
-youtube: https://www.youtube.com/watch?v=KVGOzvVNr40
+youtube: https://www.youtube.com/watch?v=HvcEBVEPtSs
 ---
 
-It may not be the 100th episode, but it is the start of the 'Summer of Mark'. Mark tries to lay out his plan for finding a new job, but Tim takes things off the rails as he asks how Mark started teaching anyway.
+Tim talks about php[tek] highlights, while Mark laments the fact that events like WWDC and Google IO have become less developer focused. Tim's using ChatGPT to grade his kid's papers, and Mark is triggered by HTMX.
 
 #### Chapters
 
