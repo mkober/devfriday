@@ -1,5 +1,5 @@
 ---
-title: "Episode 68 - The 3rd Screen"
+title: "Episode 68 - End of Summer"
 date: "2023-10-13"
 description: "Tim's hoping AI can take over the show notes, and opines on  kidney stone zapping technology. Mark's still talking cloud platform certifications and has some questions about PHP's memory magic. Oh, and conspiracy theories, have you missed this?" 
 fileURL: https://s3.amazonaws.com/podcast.timlytle.net/ep68/ep68.mp3
