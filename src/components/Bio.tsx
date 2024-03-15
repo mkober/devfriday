@@ -37,9 +37,12 @@ const Bio = () => {
           alt="Profile picture"
         />
         <div className="bio-copy">
-          <strong><a href="https://twitter.com/MarkKoberlein">Mark Koberlein</a></strong>
-          <p><em>Prof. of Interactive Design. Amateur Japan Tour Guide & Batman Historian. 
-          <a href="https://twitter.com/NJCAAE">@NJCAAE</a> Coach & award-winning theater actor.</em></p>
+          <strong>
+            <a href="https://twitter.com/MarkKoberlein">Mark Koberlein</a>
+          </strong>
+          <p>
+            <em>Cloud Engineer, Professor, and former Japan tour guide.</em>
+          </p>
         </div>
       </div>
       <div className="bio-profile">
@@ -54,13 +57,19 @@ const Bio = () => {
           alt="Profile picture"
         />
         <div className="bio-copy">
-          <strong><a href="https://twitter.com/tjlytle">Tim Lytle</a></strong>
-          <p><em>Bible Believer, API / Platform Guy, Developer&nbsp; 
-          <a href="https://twitter.com/phoneburner">@phoneburner</a>,&nbsp; 
-          <a href="https://twitter.com/lvtech">@lvtech</a> Wrangler,
-          former <a href="https://twitter.com/beckoncall">@beckoncall</a>&nbsp;  
-          & DevRel <a href="https://twitter.com/nexmo">@nexmo</a>, 
-          Future Futurist, Sometime Writer & Speaker</em></p>
+          <strong>
+            <a href="https://twitter.com/tjlytle">Tim Lytle</a>
+          </strong>
+          <p>
+            <em>
+              Bible Believer, API / Platform Guy, Developer&nbsp;
+              <a href="https://twitter.com/phoneburner">@phoneburner</a>,&nbsp;
+              <a href="https://twitter.com/lvtech">@lvtech</a> Wrangler, former{" "}
+              <a href="https://twitter.com/beckoncall">@beckoncall</a>&nbsp; &
+              DevRel <a href="https://twitter.com/nexmo">@nexmo</a>, Future
+              Futurist, Sometime Writer & Speaker
+            </em>
+          </p>
         </div>
       </div>
     </div>
