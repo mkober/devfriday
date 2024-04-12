@@ -1,5 +1,5 @@
 ---
-title: "Episode 76 - How It Started"
+title: "Episode 77 - How It's Going"
 date: "2024-03-29"
 description: "Tim and Mark dive into headless CMS and why you might want to build a custom site. Mark fondly remembers the glory days of RollerCoaster Tycoon, coded entirely in assembly."
 fileURL: https://s3.amazonaws.com/podcast.timlytle.net/ep77/ep77.mp3
