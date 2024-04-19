@@ -1,6 +1,6 @@
 ---
-title: "Episode 76 - How It Started"
-date: "2024-03-29"
+title: "Episode 78 - Serverless Wordpress"
+date: "2024-04-05"
 description: "Tim dreams of automating the entire podcast workflow while Mark just wants to finally get to the topic: WordPress. And it turns out summarizing these ramblings adds up fast."
 fileURL: https://s3.amazonaws.com/podcast.timlytle.net/ep78/ep78.mp3
 fileSize: 100
