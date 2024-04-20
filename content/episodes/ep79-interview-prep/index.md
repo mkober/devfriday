@@ -20,8 +20,8 @@ Mark shares tales of his bellhop days as Tim recounts the puppeteering gigs of h
 13:30 - Getting Involved in the Job Search    
 15:13 - Tech Groups, LinkedIn, and Developer Communities    
 18:27 - Mark's Grasshopper Number    
-20:06 - Classified Ads
-20:39 - Friday Talk
+20:06 - Classified Ads    
+20:39 - Friday Talk    
 20:59 - Eclipse Coverage    
 22:42 - In the Path of Totality    
 26:06 - The Eclipse in America    
